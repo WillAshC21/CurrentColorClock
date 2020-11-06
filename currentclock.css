@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    animation: current 30s infinite;
+}
+@keyframes current {
+    25% {background-color: red;}
+    50% {background-color: blue;}
+    75% {background-color: green;}
+}
+h1 {
+    color: white;
+    font-display: "Lato";
+    font-size: 250px;
+    font-weight: 500;
+    text-align: center;
+}
+#time-button {
+    text-align: center;
+}
